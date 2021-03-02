@@ -73,7 +73,7 @@ class TestLogs(TestCase):
             try:
                 self.exixting_allFields(mock)
             except:
-                errors_count +=1
+                errors_count += 1
     
     def test_perform_to_int_formats(self,):
         global errors_count
@@ -82,7 +82,7 @@ class TestLogs(TestCase):
             try:
                 self.int_format(mock)
             except:
-                errors_count +=1
+                errors_count += 1
             
     def test_date_ISO8601(self,):
         global errors_count
@@ -91,7 +91,7 @@ class TestLogs(TestCase):
             try:
                 self.date_ISO8601(mock)
             except:
-                errors_count +=1
+                errors_count += 1
     
     
     
