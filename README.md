@@ -1,4 +1,4 @@
-# testing_logs
+# retrieve_logs
 
 Руководство содержится в файле MANUAL.pdf. 
 
